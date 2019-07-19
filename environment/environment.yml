@@ -1,0 +1,27 @@
+name: ghana-training
+
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.7
+  - cartopy
+  - jupyter
+  - matplotlib
+  - netcdf4
+  - tqdm
+  - xarray
+  - esmpy
+  - xesmf
+  - satpy
+  - esmpy
+  - pyresample
+  - cis
+  - imageio
+  - iris
+  - h5netcdf
+  - netcdf4
+  - pandas
+  - pip:
+    - ecmwf-api-client
